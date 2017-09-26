@@ -1,1 +1,2 @@
 git+https://github.com/NSLS-II/ophyd.git
+git+https://github.com/slaclab/pcds-devices.git
