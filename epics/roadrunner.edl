@@ -1,0 +1,204 @@
+
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 3720
+y 2510
+w 820
+h 1000
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 7
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+showGrid
+gridSize 8
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 29
+y 123
+w 188
+h 141
+lineColor index 35
+fillColor index 6
+lineWidth 3
+visPv "MFX:RR:SOFT_TRIP"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 124
+w 187
+h 139
+lineColor index 20
+fillColor index 6
+lineWidth 3
+visPv "MFX:RR:HARD_TRIP"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 31
+y 125
+w 185
+h 136
+lineColor index 14
+fill
+fillColor index 6
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 10
+w 798
+h 55
+lineColor index 14
+fill
+fillColor index 93
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 12
+y 6
+w 793
+h 59
+font "utopia-bold-r-48.0"
+fontAlign "center"
+fgColor index 1
+bgColor index 0
+useDisplayBg
+value {
+  "Road Runner"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 42
+y 134
+w 163
+h 21
+font "helvetica-bold-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Attenuator Tripper"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 53
+y 228
+w 127
+h 22
+fgColor index 14
+onColor index 7
+offColor index 7
+topShadowColor index 14
+botShadowColor index 14
+controlPv "MFX:RR:ENABLE"
+pressValue "0"
+onLabel "Disable"
+offLabel "Disable"
+3d
+useEnumNumeric
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 54
+y 162
+w 126
+h 24
+controlPv "MFX:RR:ENABLE"
+format "string"
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 15
+bgColor index 5
+nullColor index 0
+smartRefresh
+fastUpdate
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 54
+y 198
+w 127
+h 22
+fgColor index 14
+onColor index 7
+offColor index 7
+topShadowColor index 14
+botShadowColor index 14
+controlPv "MFX:RR:ENABLE"
+pressValue "1"
+onLabel "Enable"
+offLabel "Enable"
+3d
+useEnumNumeric
+font "helvetica-bold-r-12.0"
+endObjectProperties
+
